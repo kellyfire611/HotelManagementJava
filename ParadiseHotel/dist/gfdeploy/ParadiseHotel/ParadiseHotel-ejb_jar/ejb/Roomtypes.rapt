@@ -1,1 +1,7 @@
+ejb/Rooms_.java
 ejb/Roomtypes_.java
+ejb/Roomstatus_.java
+ejb/Reservations_.java
+ejb/Transaction_.java
+ejb/Admin_.java
+ejb/Customers_.java

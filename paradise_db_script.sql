@@ -13,7 +13,7 @@ CREATE TABLE IF NOT EXISTS `admin` (
 )ENGINE=InnoDB;
 
 /* insert into admin */
-INSERT INTO `admin` (`username`,`password`) VALUES ('preet','preet');
+INSERT INTO `admin` (`username`,`password`) VALUES ('admin','admin');
 INSERT INTO `admin` (`username`,`password`) VALUES ('ujjawal','ujjawal');
 INSERT INTO `admin` (`username`,`password`) VALUES ('rex','rex');
 
@@ -30,7 +30,7 @@ CREATE TABLE IF NOT EXISTS `customers` (
 
 /* insert into customers */
 INSERT INTO `customers` (`firstname`,`lastname`,`email`,`phone`,`username`,`password`) 
-VALUES ('Preet','Acharya','ipreet91@gmail.com','6479714301','preet','preet');
+VALUES ('admin','Acharya','iadmin91@gmail.com','6479714301','admin','admin');
 INSERT INTO `customers` (`firstname`,`lastname`,`email`,`phone`,`username`,`password`) 
 VALUES ('Nirmoh','Nagwadiya','nirmoh@gmail.com','6479714302','nirmoh','nirmoh');
 INSERT INTO `customers` (`firstname`,`lastname`,`email`,`phone`,`username`,`password`) 
@@ -146,6 +146,6 @@ CREATE TABLE IF NOT EXISTS `transaction` (
 
 /* insert data into transaction */
 INSERT INTO `transaction` (`custid`,`paymenttype`,`price`,`cardholder`,`cardname`,`cardno`,`expirydate`) 
-VALUES (1,'credit','2100','Preet Acharya','VISA','4502178124023652','2019/02');
+VALUES (1,'credit','2100','admin Acharya','VISA','4502178124023652','2019/02');
 INSERT INTO `transaction` (`custid`,`paymenttype`,`price`,`cardholder`,`cardname`,`cardno`,`expirydate`) 
 VALUES (2,'credit','600','Ujjawal Tivari','MASTER','4502178124523652','2020/02');
